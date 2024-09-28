@@ -7,55 +7,57 @@
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#0e0e0e",
+    "light": "#fff",
+    "dark": "#0e0e0e",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#0e0e0e",
+      "to": "#fff"
     }
   },
+  "theme": "prism",
+  "layout": "topnav",
+  "background": {
+    "style": "grid"
+  },
+  "modeToggle": {
+    "default": "light"
+  },
+  "sidebar": {
+    "items": "container"
+  },
+  "topbar": {
+    "style": "default"
+  },
+  "search": {
+    "location": "top",
+    "prompt": "Procurar..."
+  },
+  "rounded": "default",
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Suporte",
+      "url": "mailto:contato@advents.io"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Entrar",
+    "url": "https://app.advents.io",
+    "style": "roundedRectangle",
+    "arrow": true
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
-  ],
+  "footerSocials": {
+    "website": "https://advents.io",
+    "linkedin": "https://www.linkedin.com/company/advents-io",
+    "github": "https://github.com/advents-io"
+  },
+  "feedback": {
+    "suggestEdit": true
+  },
   "navigation": [
     {
       "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
+      "pages": ["introduction", "quickstart", "development"]
     },
     {
       "group": "Essentials",
@@ -67,25 +69,6 @@
         "essentials/navigation",
         "essentials/reusable-snippets"
       ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
     }
-  ],
-  "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
-  }
+  ]
 }
