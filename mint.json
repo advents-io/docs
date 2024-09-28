@@ -52,15 +52,27 @@
     "github": "https://github.com/advents-io"
   },
   "feedback": {
-    "suggestEdit": true
+    "suggestEdit": true,
+    "raiseIssue": true,
+    "thumbsRating": false
   },
+  "topAnchor": {
+    "name": "Documentação"
+  },
+  "anchors": [
+    {
+      "name": "Fale Conosco",
+      "icon": "envelope",
+      "url": "mailto:contato@advents.io"
+    }
+  ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Introdução",
       "pages": ["introduction", "quickstart", "development"]
     },
     {
-      "group": "Essentials",
+      "group": "Fundamentos",
       "pages": [
         "essentials/markdown",
         "essentials/code",
