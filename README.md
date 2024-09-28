@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://advents.io">
+  <a href="https://advents.io" target="_blank">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="logo/dark.svg" />
       <source media="(prefers-color-scheme: light)" srcset="logo/light.svg" />
@@ -24,9 +24,9 @@ Para contribuir com a documentação:
 
 Agradecemos suas contribuições para melhorar nossa documentação!
 
-## Entre em Contato
+## Suporte
 
-Se você tiver alguma dúvida ou precisar de ajuda, pode nos contatar através dos seguintes canais:
+Se você tiver alguma dúvida ou precisar de ajuda, entre em contato:
 
 - E-mail: contato@advents.io
 - LinkedIn: https://www.linkedin.com/company/advents-io
