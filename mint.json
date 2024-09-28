@@ -53,7 +53,7 @@
   },
   "feedback": {
     "suggestEdit": true,
-    "raiseIssue": true,
+    "raiseIssue": false,
     "thumbsRating": false
   },
   "topAnchor": {
