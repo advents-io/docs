@@ -24,6 +24,10 @@ Para contribuir com a documentação:
 
 Agradecemos suas contribuições para melhorar nossa documentação!
 
+## Licença
+
+Este projeto está licenciado sob a Licença GNU Affero General Public License Version 3 (AGPLv3) ou qualquer versão posterior - veja o arquivo [LICENSE](LICENSE.md) para detalhes.
+
 ## Suporte
 
 Se você tiver alguma dúvida ou precisar de ajuda, entre em contato:
