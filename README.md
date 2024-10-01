@@ -3,7 +3,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="misc/brand-dark.svg" />
       <source media="(prefers-color-scheme: light)" srcset="misc/brand-light.svg" />
-      <img src="misc/brand-dark.svg" alt="Advents logo" width="312px" />
+      <img src="misc/brand-dark.svg" alt="Advents" width="312px" />
     </picture>
   </a>
 </p>
