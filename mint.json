@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Advents",
   "logo": {
-    "dark": "/assets/logo/dark.svg",
-    "light": "/assets/logo/light.svg"
+    "dark": "/assets/brand/dark.svg",
+    "light": "/assets/brand/light.svg"
   },
   "favicon": "/assets/favicon.svg",
   "colors": {
