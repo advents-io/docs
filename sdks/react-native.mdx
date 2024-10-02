@@ -46,6 +46,13 @@ Dependendo do tipo do seu projeto - **Expo** ou **React Native puro** - você pr
 npx expo install expo-application expo-device expo-clipboard expo-constants expo-tracking-transparency
 ```
 
+<Warning>
+  O pacote `expo-tracking-transparency` não é obrigatório, mas é recomendado para melhorar a
+  precisão da atribuição no iOS. <br />
+  Caso deseje instalar, **é necessário seguir etapas adicionais**, consulte a documentação em:
+  [https://docs.expo.dev/versions/latest/sdk/tracking-transparency](https://docs.expo.dev/versions/latest/sdk/tracking-transparency/#configuration-in-appjsonappconfigjs)
+</Warning>
+
 #### React Native puro
 
 <CodeGroup>
@@ -64,9 +71,12 @@ pnpm add react-native-device-info @react-native-clipboard/clipboard @sparkfabrik
 
 </CodeGroup>
 
-<br />
-
-<Warning>Cada um dos pacotes adicionais pode necessitar de configurações específicas.</Warning>
+<Warning>
+  O pacote `@sparkfabrik/react-native-idfa-aaid` não é obrigatório, mas é recomendado para melhorar
+  a precisão da atribuição no iOS. <br />
+  Caso deseje instalar, **é necessário seguir etapas adicionais**, consulte a documentação em:
+  [https://github.com/sparkfabrik/sparkfabrik-react-native-idfa-aaid](https://github.com/sparkfabrik/sparkfabrik-react-native-idfa-aaid?tab=readme-ov-file#ios-configuration)
+</Warning>
 
 ## 2. Inicialização
 
