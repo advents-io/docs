@@ -26,7 +26,7 @@ Agradecemos suas contribuições para melhorar nossa documentação!
 
 ## Licença
 
-Este projeto está licenciado sob a Licença GNU Affero General Public License Version 3 (AGPLv3) ou qualquer versão posterior - veja o arquivo [LICENSE](LICENSE.md) para detalhes.
+Este projeto está licenciado sob a Licença GNU Affero General Public License Version 3 (AGPLv3) ou qualquer versão posterior - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
 ## Suporte
 
