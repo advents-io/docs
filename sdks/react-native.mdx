@@ -88,9 +88,57 @@ import { advents } from 'advents-react-native'
 export default function App() {
   advents.init('advents_abcdefghijklmno123456789')
 
-  // ... rest of the code ...
+  // ...
 }
 ```
+
+### Permissão de trackeamento (ATT)
+
+Os pacotes `expo-tracking-transparency` para projetos Expo e `@sparkfabrik/react-native-idfa-aaid` para projetos React Native puro, são responsáveis por solicitar a permissão de trackeamento - ATT (App Tracking Transparency) - ao usuário em dispositivos iOS. Para mais informações, [consulte a documentação oficial da Apple](https://developer.apple.com/app-store/user-privacy-and-data-use).
+
+Com a permissão concedida, a SDK consegue coletar o IDFA (Identifier for Advertisers) do dispositivo, o que melhora a precisão da atribuição.
+
+Como dito anteriormente, os pacotes são opcionais. Caso opte por instalar, você deve solicitar a permissão de ATT antes de inicializar a SDK.
+
+<CodeGroup>
+
+```typescript Expo
+import { advents } from 'advents-react-native'
+import { requestTrackingPermissionsAsync } from 'expo-tracking-transparency'
+
+export default function App() {
+  useEffect(() => {
+    init()
+  }, [])
+
+  const init = async () => {
+    await requestTrackingPermissionsAsync()
+    advents.init('advents_abcdefghijklmno123456789')
+  }
+
+  // ...
+}
+```
+
+```typescript React Native puro
+import { advents } from 'advents-react-native'
+import ReactNativeIdfaAaid from '@sparkfabrik/react-native-idfa-aaid'
+
+export default function App() {
+  useEffect(() => {
+    init()
+  }, [])
+
+  const init = async () => {
+    await ReactNativeIdfaAaid.getAdvertisingInfo()
+    advents.init('advents_abcdefghijklmno123456789')
+  }
+
+  // ...
+}
+```
+
+</CodeGroup>
 
 ## 3. Verificação
 
