@@ -34,10 +34,23 @@
     "prompt": "Procurar..."
   },
   "rounded": "default",
+  "feedback": {
+    "suggestEdit": true,
+    "raiseIssue": false,
+    "thumbsRating": true
+  },
+  "seo": {
+    "indexHiddenPages": true
+  },
+  "footerSocials": {
+    "website": "https://advents.io",
+    "linkedin": "https://www.linkedin.com/company/advents-io",
+    "github": "https://github.com/advents-io"
+  },
   "topbarLinks": [
     {
       "name": "Suporte",
-      "url": "mailto:contato@advents.io"
+      "url": "suporte"
     }
   ],
   "topbarCtaButton": {
@@ -46,41 +59,33 @@
     "style": "roundedRectangle",
     "arrow": true
   },
-  "footerSocials": {
-    "website": "https://advents.io",
-    "linkedin": "https://www.linkedin.com/company/advents-io",
-    "github": "https://github.com/advents-io"
-  },
-  "feedback": {
-    "suggestEdit": true,
-    "raiseIssue": false,
-    "thumbsRating": false
-  },
   "topAnchor": {
     "name": "Documentação"
   },
   "anchors": [
     {
-      "name": "Fale Conosco",
-      "icon": "envelope",
-      "url": "mailto:contato@advents.io"
+      "name": "Fale conosco",
+      "icon": "headset",
+      "url": "suporte"
+    },
+    {
+      "name": "Solicitar acesso",
+      "icon": "user",
+      "url": "https://advents.io"
     }
   ],
   "navigation": [
     {
-      "group": "Introdução",
-      "pages": ["introduction", "quickstart", "development"]
+      "group": "Documentação",
+      "pages": ["introducao"]
     },
     {
-      "group": "Fundamentos",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
+      "group": "SDKs",
+      "pages": ["sdks/react-native"]
+    },
+    {
+      "group": "",
+      "pages": ["suporte/fale-conosco"]
     }
   ]
 }
