@@ -77,7 +77,7 @@
   "navigation": [
     {
       "group": "Documentação",
-      "pages": ["introducao"]
+      "pages": ["introducao", "chave-da-api"]
     },
     {
       "group": "SDKs",

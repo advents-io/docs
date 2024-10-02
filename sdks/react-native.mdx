@@ -1,7 +1,107 @@
 ---
 title: 'React Native SDK'
+description: 'Documentação da Advents React Native SDK.'
 sidebarTitle: 'React Native'
 icon: 'react'
 ---
 
-Teste
+Aprenda como integrar a SDK da Advents em seu aplicativo React Native.
+
+## Pré-requisitos
+
+Para continuar, você precisa de:
+
+- Acesso a plataforma da Advents.
+- Um app criado e configurado na plataforma.
+- A chave de API do seu app. Mais detalhes em: [Chave da API](/chave-da-api).
+
+## 1. Instalação
+
+Para instalar a SDK da Advents, execute o comando abaixo no diretório do seu projeto:
+
+<CodeGroup>
+
+```bash npm
+npm i advents-react-native
+```
+
+```bash yarn
+yarn add advents-react-native
+```
+
+```bash pnpm
+pnpm add advents-react-native
+```
+
+</CodeGroup>
+
+<br />
+
+Além da `advents-react-native`, você precisa instalar pacotes adicionais que são necessários para o funcionamento da SDK.<br />
+Dependendo do tipo do seu projeto - **Expo** ou **React Native puro** - você precisa instalar pacotes diferentes.
+
+#### Expo
+
+```bash Terminal
+npx expo install expo-application expo-device expo-clipboard expo-constants expo-tracking-transparency
+```
+
+#### React Native puro
+
+<CodeGroup>
+
+```bash npm
+npm i react-native-device-info @react-native-clipboard/clipboard @sparkfabrik/react-native-idfa-aaid
+```
+
+```bash yarn
+yarn add react-native-device-info @react-native-clipboard/clipboard @sparkfabrik/react-native-idfa-aaid
+```
+
+```bash pnpm
+pnpm add react-native-device-info @react-native-clipboard/clipboard @sparkfabrik/react-native-idfa-aaid
+```
+
+</CodeGroup>
+
+<br />
+
+<Warning>Cada um dos pacotes adicionais pode necessitar de configurações específicas.</Warning>
+
+## 2. Inicialização
+
+Após a instalação, você precisa inicializar o SDK com sua chave de API. Recomendamos fazer isso o mais cedo possível no ciclo de vida do seu aplicativo, preferencialmente no componente de entrada do seu app.
+
+```typescript App.tsx
+import { advents } from 'advents-react-native'
+
+export default function App() {
+  advents.init('advents_abcdefghijklmno123456789')
+
+  // ... rest of the code ...
+}
+```
+
+## 3. Verificação
+
+Após finalizar a instalação e inicialização, entre em contato com a nossa equipe através do [suporte](/suporte) para verificar se os eventos enviados pela SDK estão corretos.
+
+## Recursos Adicionais
+
+<CardGroup cols={2}>
+  <Card
+    icon='github'
+    title='advents-react-native'
+    href='https://github.com/advents-io/advents-react-native'
+  >
+    As nossas SDKs são open source e disponíveis no GitHub.
+  </Card>
+
+  <Card
+    icon='npm'
+    title='advents-react-native'
+    href='https://www.npmjs.com/package/advents-react-native'
+  >
+    Pacote disponível no npm.
+  </Card>
+</CardGroup>
