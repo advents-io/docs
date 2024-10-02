@@ -50,7 +50,7 @@
   "topbarLinks": [
     {
       "name": "Suporte",
-      "url": "suporte/fale-conosco"
+      "url": "/suporte/fale-conosco"
     }
   ],
   "topbarCtaButton": {
