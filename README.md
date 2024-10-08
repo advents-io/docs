@@ -1,15 +1,15 @@
-<a href="https://advents.io/?utm_medium=social&utm_source=github&utm_campaign=docs-repo" target="_blank" align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="misc/brand-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="misc/brand-light.svg" />
-    <img src="misc/brand-dark.svg" alt="Advents" width="312px" />
-  </picture>
-</a>
-
-<h3 align="center">Advents</h3>
+<p align="center">
+  <a href="https://advents.io/?utm_medium=social&utm_source=github&utm_campaign=docs-repo" target="_blank">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="misc/brand-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="misc/brand-light.svg" />
+      <img src="misc/brand-dark.svg" alt="Advents" width="312px" />
+    </picture>
+  </a>
+</p>
 
 <p align="center">
-  The mobile attribution tool for modern apps.
+  Solução nacional de links mensuráveis, atribuição e engajamento de apps.
   <br />
   <a href="https://advents.io/?utm_medium=social&utm_source=github&utm_campaign=docs-repo"><strong>Saiba mais »</strong></a>
   <br />
@@ -19,9 +19,9 @@
   <a href="https://docs.advents.io">Documentação</a>
 </p>
 
-Este repositório contém os arquivos fonte da documentação da Advents.
+Este é o repositório oficial da documentação da Advents.
 
-A documentação oficial está disponível em:
+A documentação completa está disponível em:
 
 [https://docs.advents.io](https://docs.advents.io)
 
@@ -38,12 +38,5 @@ Agradecemos suas contribuições para melhorar nossa documentação!
 ## Licença
 
 Este projeto está licenciado sob a Licença GNU Affero General Public License Version 3 (AGPLv3) ou qualquer versão posterior - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
-## Suporte
-
-Se você tiver alguma dúvida ou precisar de ajuda, entre em contato:
-
-- E-mail: contato@advents.io
-- LinkedIn: https://www.linkedin.com/company/advents-io
 
 Obrigado pelo seu interesse na Advents!
