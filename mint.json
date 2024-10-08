@@ -51,6 +51,10 @@
     {
       "name": "Suporte",
       "url": "/suporte/fale-conosco"
+    },
+    {
+      "name": "Cadastrar",
+      "url": "https://l.advents.io/cadastro"
     }
   ],
   "topbarCtaButton": {
@@ -69,9 +73,9 @@
       "url": "suporte"
     },
     {
-      "name": "Solicitar acesso",
+      "name": "Experimente de graça",
       "icon": "user",
-      "url": "https://advents.io"
+      "url": "https://l.advents.io/cadastro"
     }
   ],
   "navigation": [
