@@ -1,11 +1,22 @@
+<a href="https://advents.io/?utm_medium=social&utm_source=github&utm_campaign=docs-repo" target="_blank" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="misc/brand-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="misc/brand-light.svg" />
+    <img src="misc/brand-dark.svg" alt="Advents" width="312px" />
+  </picture>
+</a>
+
+<h3 align="center">Advents</h3>
+
 <p align="center">
-  <a href="https://advents.io/?utm_medium=social&utm_source=github&utm_campaign=docs-repo" target="_blank">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="misc/brand-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="misc/brand-light.svg" />
-      <img src="misc/brand-dark.svg" alt="Advents" width="312px" />
-    </picture>
-  </a>
+  The mobile attribution tool for modern apps.
+  <br />
+  <a href="https://advents.io/?utm_medium=social&utm_source=github&utm_campaign=docs-repo"><strong>Saiba mais »</strong></a>
+  <br />
+  <br />
+  <a href="https://advents.io/?utm_medium=social&utm_source=github&utm_campaign=docs-repo">Site</a>
+  ·
+  <a href="https://docs.advents.io">Documentação</a>
 </p>
 
 Este repositório contém os arquivos fonte da documentação da Advents.
