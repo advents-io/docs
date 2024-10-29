@@ -1,0 +1,56 @@
+---
+title: 'Eventos'
+description: 'Documentação dos eventos da Advents React Native SDK.'
+sidebarTitle: 'Eventos'
+---
+
+A Advents React Native SDK oferece uma maneira simples de rastrear eventos importantes em seu aplicativo. Atualmente, suportamos o rastreamento de eventos de compra.
+
+## Pré-requisitos
+
+Antes de começar a utilizar os eventos, certifique-se de que você executou as etapas de configuração da SDK, descritas no guia de [introdução](/sdks/react-native/introducao).
+
+<Card href='/sdks/react-native/introducao'>
+  Consulte nosso guia de introdução para configurar a SDK em seu projeto.
+</Card>
+
+## Eventos
+
+### `logPurchase`
+
+O método `logPurchase` permite rastrear transações de compra que ocorrem em seu aplicativo.
+
+#### Parâmetros
+
+<ParamField path='value' type='number' required>
+  O valor monetário da compra. Deve ser um número positivo.
+</ParamField>
+
+#### Exemplo de Uso
+
+```typescript
+import { advents } from 'advents-react-native'
+
+// Registrar uma compra de R$ 29,99
+await advents.logPurchase({ value: 29.99 })
+```
+
+## Recursos Adicionais
+
+<CardGroup cols={2}>
+  <Card
+    icon='github'
+    title='advents-react-native'
+    href='https://github.com/advents-io/advents-react-native'
+  >
+    As nossas SDKs são open source e disponíveis no GitHub.
+  </Card>
+
+  <Card
+    icon='npm'
+    title='advents-react-native'
+    href='https://www.npmjs.com/package/advents-react-native'
+  >
+    Pacote disponível no npm.
+  </Card>
+</CardGroup>

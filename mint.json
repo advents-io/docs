@@ -85,7 +85,13 @@
     },
     {
       "group": "SDKs",
-      "pages": ["sdks/react-native"]
+      "pages": [
+        {
+          "group": "React Native",
+          "icon": "react",
+          "pages": ["sdks/react-native/introducao", "sdks/react-native/eventos"]
+        }
+      ]
     },
     {
       "group": "",
