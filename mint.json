@@ -50,7 +50,7 @@
   "topbarLinks": [
     {
       "name": "Suporte",
-      "url": "/suporte/fale-conosco"
+      "url": "/support/contact-us"
     },
     {
       "name": "Cadastrar",
@@ -70,7 +70,7 @@
     {
       "name": "Fale conosco",
       "icon": "headset",
-      "url": "suporte"
+      "url": "support"
     },
     {
       "name": "Experimente de graça",
@@ -81,7 +81,7 @@
   "navigation": [
     {
       "group": "Documentação",
-      "pages": ["introducao", "chave-da-api"]
+      "pages": ["introduction", "api-key"]
     },
     {
       "group": "SDKs",
@@ -89,13 +89,13 @@
         {
           "group": "React Native",
           "icon": "react",
-          "pages": ["sdks/react-native/introducao", "sdks/react-native/eventos"]
+          "pages": ["sdks/react-native/introduction", "sdks/react-native/events"]
         }
       ]
     },
     {
       "group": "",
-      "pages": ["suporte/fale-conosco"]
+      "pages": ["support/contact-us"]
     }
   ]
 }
