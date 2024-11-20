@@ -48,8 +48,8 @@ npx expo install expo-application expo-device expo-clipboard expo-constants expo
 <Warning>
   O pacote `expo-tracking-transparency` não é obrigatório, mas é recomendado para melhorar a
   precisão da atribuição no iOS. <br />
-  Caso deseje instalar, **é necessário seguir etapas adicionais**, consulte a documentação em:
-  [https://docs.expo.dev/versions/latest/sdk/tracking-transparency](https://docs.expo.dev/versions/latest/sdk/tracking-transparency/#configuration-in-appjsonappconfigjs)
+  Caso deseje instalar, **é necessário seguir etapas adicionais**, consulte a
+  [documentação](https://docs.expo.dev/versions/latest/sdk/tracking-transparency/#configuration-in-appjsonappconfigjs)
 </Warning>
 
 ### React Native puro
@@ -73,8 +73,8 @@ pnpm add react-native-device-info @react-native-clipboard/clipboard @sparkfabrik
 <Warning>
   O pacote `@sparkfabrik/react-native-idfa-aaid` não é obrigatório, mas é recomendado para melhorar
   a precisão da atribuição no iOS. <br />
-  Caso deseje instalar, **é necessário seguir etapas adicionais**, consulte a documentação em:
-  [https://github.com/sparkfabrik/sparkfabrik-react-native-idfa-aaid](https://github.com/sparkfabrik/sparkfabrik-react-native-idfa-aaid?tab=readme-ov-file#ios-configuration)
+  Caso deseje instalar, **é necessário seguir etapas adicionais**, consulte a
+  [documentação](https://github.com/sparkfabrik/sparkfabrik-react-native-idfa-aaid?tab=readme-ov-file#ios-configuration)
 </Warning>
 
 ## 2. Inicialização
@@ -93,7 +93,7 @@ export default function App() {
 
 ### Permissão de trackeamento (ATT)
 
-Os pacotes `expo-tracking-transparency` para projetos Expo e `@sparkfabrik/react-native-idfa-aaid` para projetos React Native puro, são responsáveis por solicitar a permissão de trackeamento - ATT (App Tracking Transparency) - ao usuário em dispositivos iOS. Para mais informações, [consulte a documentação oficial da Apple](https://developer.apple.com/app-store/user-privacy-and-data-use).
+Os pacotes `expo-tracking-transparency` para projetos Expo e `@sparkfabrik/react-native-idfa-aaid` para projetos React Native puro, são responsáveis por solicitar a permissão de trackeamento - ATT (App Tracking Transparency) - ao usuário em dispositivos iOS. Para mais informações, consulte a [documentação oficial da Apple](https://developer.apple.com/app-store/user-privacy-and-data-use).
 
 Com a permissão concedida, a SDK consegue coletar o IDFA (Identifier for Advertisers) do dispositivo, o que melhora a precisão da atribuição.
 
