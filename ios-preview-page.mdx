@@ -1,0 +1,94 @@
+---
+title: 'Página de preview iOS'
+description: 'Entenda como funciona a página de pré-visualização iOS e suas vantagens para atribuição precisa de instalações.'
+icon: 'apple'
+---
+
+## Visão geral
+
+A página de pré-visualização iOS é um recurso que melhora significativamente a precisão da atribuição de instalações em dispositivos iOS. Quando um usuário clica em um link da Advents em um dispositivo iOS, ele é direcionado para uma página intermediária antes de ser redirecionado para a App Store.
+
+Esta página contém um botão de ação que, ao ser clicado:
+
+1. Copia o identificador único do link para o clipboard do dispositivo
+2. Redireciona o usuário para a App Store
+
+Quando o app é aberto pela primeira vez após a instalação, a SDK da Advents lê o identificador do clipboard, permitindo uma atribuição precisa da instalação ao link clicado originalmente.
+
+<Frame>
+  <img src='/assets/images/ios-preview-page/ios-preview-page.png' />
+</Frame>
+
+## Como funciona
+
+1. O usuário clica em um link da Advents em um dispositivo iOS.
+2. O usuário é direcionado para a página de pré-visualização.
+3. Ao clicar no botão **"Abrir na App Store"**, o identificador único do link é copiado para o clipboard e o usuário é redirecionado para a App Store.
+4. O usuário instala e abre o app pela primeira vez.
+5. A SDK da Advents lê o identificador do clipboard.
+6. A instalação é atribuída corretamente ao link original.
+
+## Vantagens
+
+<CardGroup cols={2}>
+  <Card title='Atribuição Precisa' icon='bullseye-arrow'>
+    Garante que instalações sejam corretamente atribuídas aos links de origem, mesmo em dispositivos
+    iOS.
+  </Card>
+  <Card title='Análise de Campanhas' icon='chart-line'>
+    Permite análise precisa do ROI e performance de campanhas de marketing.
+  </Card>
+  <Card title='Experiência Fluida' icon='mobile'>
+    Interface simples e intuitiva que guia o usuário para a App Store.
+  </Card>
+  <Card title='Sem Configuração' icon='gear'>
+    Funciona automaticamente, sem necessidade de configurações adicionais no app.
+  </Card>
+</CardGroup>
+
+## Desabilitando
+
+É possível desabilitar a página de pré-visualização iOS tanto globalmente para um app quanto individualmente para links específicos.
+
+<Accordion title="Desabilitar Globalmente por app">
+  Nos ajustes do app, ative a opção "Desabilitar página de pré-visualização no iOS".
+  Isso fará com que todos os novos links criados herdem essa configuração por padrão.
+
+<Note>Links existentes não são afetados por essa mudança.</Note>
+
+  <Frame>
+    <img src='/assets/images/ios-preview-page/disable-app.png' />
+  </Frame>
+</Accordion>
+
+<Accordion title='Desabilitar por Link'>
+  Ao criar ou editar um link, você pode ativar a opção "Desabilitar página de pré-visualização no
+  iOS" independentemente da configuração global do app.
+
+  <Frame>
+    <img src='/assets/images/ios-preview-page/disable-link.png' />
+  </Frame>
+</Accordion>
+
+### Impactos ao desabilitar
+
+Desabilitar a página de pré-visualização iOS pode impactar negativamente a precisão da atribuição
+de instalações.
+
+Ao desabilitar a página de pré-visualização:
+
+**Vantagens**:
+
+- Usuários são direcionados diretamente para a App Store.
+- Redução de um passo na jornada de instalação.
+
+**Desvantagens**:
+
+- Perda de precisão na atribuição de instalações.
+- Dificuldade em medir ROI de campanhas.
+
+<Note>
+  A página de pré-visualização pode ser desabilitada em casos onde a velocidade de redirecionamento
+  e carregamento é mais importante que a precisão da atribuição, como em links de suporte ao
+  cliente.
+</Note>

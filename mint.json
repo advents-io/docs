@@ -81,7 +81,7 @@
   "navigation": [
     {
       "group": "Documentação",
-      "pages": ["introduction", "api-key"]
+      "pages": ["introduction", "api-key", "ios-preview-page"]
     },
     {
       "group": "SDKs",
