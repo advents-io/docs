@@ -2,7 +2,7 @@
   <img alt="Advents is the mobile attribution tool for modern apps." src="./.github/og.png">
 </a>
 
-<h3 align="center">Advents</h3>
+<h2 align="center">Advents</h2>
 
 <p align="center">
   The AppsFlyer alternative.
