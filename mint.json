@@ -20,6 +20,13 @@
   "background": {
     "style": "grid"
   },
+  "versions": [
+    {
+      "name": "Português",
+      "locale": "pt-BR",
+      "default": true
+    }
+  ],
   "modeToggle": {
     "default": "light"
   },
