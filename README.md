@@ -35,4 +35,4 @@ We appreciate your contributions to improve our docs!
 
 ## License
 
-This project is licensed under the GNU Affero General Public License Version 3 (AGPLv3) or any later version - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU Affero General Public License Version 3 (AGPLv3) or any later version - see the [LICENSE](LICENSE.md) file for details.
