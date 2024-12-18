@@ -20,13 +20,6 @@
   "background": {
     "style": "grid"
   },
-  "versions": [
-    {
-      "name": "Português",
-      "locale": "pt-BR",
-      "default": true
-    }
-  ],
   "modeToggle": {
     "default": "light"
   },
@@ -41,6 +34,7 @@
     "prompt": "Procurar..."
   },
   "rounded": "default",
+
   "feedback": {
     "suggestEdit": true,
     "raiseIssue": false,
@@ -49,16 +43,8 @@
   "seo": {
     "indexHiddenPages": true
   },
-  "footerSocials": {
-    "website": "https://advents.io",
-    "linkedin": "https://www.linkedin.com/company/advents-io",
-    "github": "https://github.com/advents-io"
-  },
+
   "topbarLinks": [
-    {
-      "name": "Suporte",
-      "url": "/support/contact-us"
-    },
     {
       "name": "Cadastrar",
       "url": "https://l.advents.io/cadastro"
@@ -68,27 +54,104 @@
     "name": "Entrar",
     "url": "https://app.advents.io",
     "style": "roundedRectangle",
-    "arrow": true
+    "arrow": false
   },
-  "topAnchor": {
-    "name": "Documentação"
-  },
-  "anchors": [
+  "versions": [
     {
-      "name": "Fale conosco",
-      "icon": "headset",
-      "url": "support"
-    },
+      "name": "Português",
+      "locale": "pt-BR",
+      "default": true
+    }
+  ],
+  "anchors": [
     {
       "name": "Experimente de graça",
       "icon": "user",
       "url": "https://l.advents.io/cadastro"
     }
   ],
+  "footer": {
+    "socials": {
+      "website": "https://advents.io",
+      "github": "https://github.com/advents-io",
+      "linkedin": "https://www.linkedin.com/company/advents-io"
+    },
+    "links": [
+      {
+        "title": "Plataforma",
+        "links": [
+          {
+            "label": "Entrar",
+            "url": "https://app.advents.io"
+          },
+          {
+            "label": "Cadastrar",
+            "url": "https://l.advents.io/cadastro"
+          }
+        ]
+      },
+      {
+        "title": "Contato",
+        "links": [
+          {
+            "label": "WhatsApp",
+            "url": "https://wa.me/5549999268806"
+          },
+          {
+            "label": "E-mail",
+            "url": "mailto:contato@advents.io"
+          },
+          {
+            "label": "Agendar Reunião",
+            "url": "https://cal.com/gabriel-moresco/advents"
+          }
+        ]
+      },
+      {
+        "title": "Empresa",
+        "links": [
+          {
+            "label": "Site",
+            "url": "https://advents.io"
+          },
+          {
+            "label": "Blog",
+            "url": "https://advents.io/blog"
+          },
+          {
+            "label": "Sobre",
+            "url": "https://advents.io/blog/apresentando-a-advents"
+          },
+          {
+            "label": "GitHub",
+            "url": "https://github.com/advents-io"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/company/advents-io"
+          }
+        ]
+      }
+    ]
+  },
+  "tabs": [
+    {
+      "name": "Documentação",
+      "url": "/"
+    },
+    {
+      "name": "Suporte",
+      "url": "/support"
+    },
+    {
+      "name": "Demonstração",
+      "url": "/demo"
+    }
+  ],
   "navigation": [
     {
-      "group": "Documentação",
-      "pages": ["introduction", "api-key", "ios-preview-page"]
+      "group": "",
+      "pages": ["/introduction", "/api-key", "/ios-preview-page"]
     },
     {
       "group": "SDKs",
@@ -96,13 +159,17 @@
         {
           "group": "React Native",
           "icon": "react",
-          "pages": ["sdks/react-native/introduction", "sdks/react-native/events"]
+          "pages": ["/sdks/react-native/introduction", "/sdks/react-native/events"]
         }
       ]
     },
     {
       "group": "",
-      "pages": ["support/contact-us"]
+      "pages": ["/support/contact-us"]
+    },
+    {
+      "group": "",
+      "pages": ["/demo/demo"]
     }
   ]
 }
