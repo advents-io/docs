@@ -1,5 +1,5 @@
 <a href="https://advents.io/?utm_medium=social&utm_source=github&utm_campaign=docs-repo">
-  <img alt="Advents brand." src="./.github/og.png">
+  <img alt="Advents brand." src="./.github/og.png" />
 </a>
 
 <h2 align="center">Advents</h2>
@@ -28,7 +28,7 @@ The full documentation is available at:
 [https://docs.advents.io](https://docs.advents.io)
 
 <a href="https://docs.advents.io">
-  <img alt="Advents docs page preview." src="./.github/preview-docs.png">
+  <img alt="Advents docs page preview." src="./.github/preview-docs.png" />
 </a>
 
 ## Contribution
