@@ -1,0 +1,168 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "palm",
+  "name": "Advents",
+  "description": "Advents é uma alternativa à AppsFlyer e ao Firebase Dynamic Links. Impulsione suas campanhas de instalação com a evolução da atribuição mobile.",
+
+  "colors": {
+    "primary": "#0E0E0E",
+    "light": "#D3D3D3",
+    "dark": "#0E0E0E"
+  },
+  "logo": {
+    "light": "/assets/brand/light.svg",
+    "dark": "/assets/brand/dark.svg"
+  },
+  "favicon": "/assets/favicon.svg",
+  "styling": {
+    "codeblocks": "dark",
+    "eyebrows": "section",
+    "rounded": "regular"
+  },
+  "appearance": {
+    "default": "light"
+  },
+  "background": {},
+
+  "navbar": {
+    "links": [
+      {
+        "label": "Cadastrar",
+        "href": "https://l.advents.io/cadastro"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Entrar",
+      "href": "https://app.advents.io"
+    }
+  },
+  "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Experimente de graça",
+          "href": "https://l.advents.io/cadastro",
+          "icon": "user"
+        }
+      ]
+    },
+    "languages": [
+      {
+        "language": "pt-BR",
+        "default": true,
+        "tabs": [
+          {
+            "tab": "Documentação",
+            "groups": [
+              {
+                "group": "Teste 1",
+                "pages": ["introduction", "api-key", "ios-preview-page"]
+              },
+              {
+                "group": "SDKs",
+                "pages": [
+                  {
+                    "group": "React Native",
+                    "icon": "react",
+                    "pages": ["sdks/react-native/introduction", "sdks/react-native/events"]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Suporte",
+            "groups": [
+              {
+                "group": "Teste 2",
+                "pages": ["support/contact-us"]
+              }
+            ]
+          },
+          {
+            "tab": "Demonstração",
+            "groups": [
+              {
+                "group": "Teste 3",
+                "pages": ["demo/demo"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "socials": {
+      "website": "https://advents.io",
+      "github": "https://github.com/advents-io",
+      "linkedin": "https://www.linkedin.com/company/advents-io",
+      "youtube": "https://youtu.be/eYzF5tCwq_A"
+    },
+    "links": [
+      {
+        "header": "Plataforma",
+        "items": [
+          {
+            "label": "Entrar",
+            "href": "https://app.advents.io"
+          },
+          {
+            "label": "Cadastrar",
+            "href": "https://l.advents.io/cadastro"
+          }
+        ]
+      },
+      {
+        "header": "Contato",
+        "items": [
+          {
+            "label": "WhatsApp",
+            "href": "https://wa.me/5549999268806"
+          },
+          {
+            "label": "E-mail",
+            "href": "mailto:contato@advents.io"
+          },
+          {
+            "label": "Agendar Reunião",
+            "href": "https://cal.com/gabriel-moresco/advents"
+          }
+        ]
+      },
+      {
+        "header": "Empresa",
+        "items": [
+          {
+            "label": "Site",
+            "href": "https://advents.io"
+          },
+          {
+            "label": "Blog",
+            "href": "https://advents.io/blog"
+          },
+          {
+            "label": "Sobre",
+            "href": "https://advents.io/blog/apresentando-a-advents"
+          },
+          {
+            "label": "GitHub",
+            "href": "https://github.com/advents-io"
+          },
+          {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/company/advents-io"
+          }
+        ]
+      }
+    ]
+  },
+
+  "seo": {
+    "indexing": "all"
+  },
+  "search": {
+    "prompt": "Procurar..."
+  }
+}
