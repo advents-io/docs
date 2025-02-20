@@ -2,6 +2,7 @@
   "name": "@advents/docs",
   "scripts": {
     "dev": "mintlify dev --port 3001",
-    "broken-links": "mintlify broken-links"
+    "check": "mintlify broken-links",
+    "update": "pnpm i -g mintlify@latest"
   }
 }
