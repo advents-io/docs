@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "palm",
   "name": "Advents",
   "description": "Advents é uma alternativa à AppsFlyer e ao Firebase Dynamic Links. Impulsione suas campanhas de instalação com a evolução da atribuição mobile.",
 
@@ -55,7 +55,7 @@
             "tab": "Documentação",
             "groups": [
               {
-                "group": "Teste 1",
+                "group": " ",
                 "pages": ["introduction", "api-key", "ios-preview-page"]
               },
               {
@@ -74,7 +74,7 @@
             "tab": "Suporte",
             "groups": [
               {
-                "group": "Teste 2",
+                "group": " ",
                 "pages": ["support/contact-us"]
               }
             ]
@@ -83,7 +83,7 @@
             "tab": "Demonstração",
             "groups": [
               {
-                "group": "Teste 3",
+                "group": " ",
                 "pages": ["demo/demo"]
               }
             ]
